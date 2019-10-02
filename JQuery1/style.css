@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 10;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+  }
+  html { height: 101%; } /* always display scrollbars */
+  body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
+  
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+  ol, ul { list-style: none; }
+  
+  blockquote, q { quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+  strong { font-weight: bold; } 
+  
+  input { outline: none; }
+  
+  table { border-collapse: collapse; border-spacing: 0; }
+  img { border: 0; max-width: 100%; }
+  
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+html {
+    background-color: #ebf3f6;
+    width: 500px;
+   
+}
+
+.todoList {
+    
+    color: #ebf3f6;
+   
+}
+
+/* .todoList .input-form {
+    font-weight: 150px; */
+}
+
+#new-text {
+    background-color: #fff;
+}
+
+li {
+    
+    border-radius: 2px;
+    border-bottom: 1px solid #ebf3f6; 
+    height: 30px;
+    
+}
+
+.todoList  input[type="checkbox"]{
+    display: inline-block;
+    width:10px;
+    height:10px;
+    margin: 10px;
+   
+                                                                                                                                                        
+}
+
+.todoList div {
+    display: inline-block;
+    border-right: 1px solid #ebf3f6;
+    
+    
+}
+
+
+.input-form input[type="text"]{
+    border: 0px;
+    background: none;
+    padding: 9px;
+    margin-left: 10px;
+    
+}
+
+.input-form {
+    margin-left: 7px;
+    border: solid 2px;
+    border-color: #dfe1e3;
+    border-radius: 2px;
+    height: 40px;
+    background-color: #ffffff;
+}
+ul {
+    background-color: #dfe1e3;
+    padding: 0;
+    margin-left: 1em;
+}
+
+.input-form span {
+    color: #fff;
+    
+}
+
+#add {
+    border: 0px;
+    background-color: #26a59b;
+    margin: 5px;
+    float: right;
+    border-radius: 2px;
+    border: #26a59b;
+    width: 60px;
+    height: 30px;
+    
+
+}
+
+.colorPicker {
+    display: inline-block;
+    background-color:#ebf3f6;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+   
+
+
+.color1 {
+    background-color: #ee6a68;
+}
+.color2 {
+    background-color: #f279a2;
+
+}
+
+.color3 {
+    background-color: #9170cb;
+}
+
+.color4 {
+    background-color: #5eb3f6;
+}
+
+.color5 {
+    background-color: #67d7e5;
+}
+
+.color6 {
+    background-color: #ffe083;
+}
+
+.input-form input[type="radio"] {
+    display:none; 
+    
+    
+}
+
+
+
+label {
+    display:inline-block;
+    width:15px;
+    height:15px;
+    cursor:pointer;
+    border-radius: 2px;
+    
+}		
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
